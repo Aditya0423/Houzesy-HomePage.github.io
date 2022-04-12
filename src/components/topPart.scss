@@ -1,0 +1,77 @@
+.mainBody{
+
+display: flex;
+flex-wrap:wrap;
+  margin: 10px;
+  grid-row-gap: 80px;
+  column-gap: 8%;
+
+  //   display: grid;
+//  // background-color: black;
+//   grid: auto-flow min-content/ 1fr 1fr;
+//   grid-template-areas: "carouselPart carouselPart"
+//                         "regAndLogin detailsInfo";
+}
+
+.tipMid{
+  display: flex;
+  flex-direction: row;
+}
+
+
+// @media screen and (max-width: 600px){
+//   .mainBody{
+//     //background-color: black;
+//     display: grid;
+//     grid: auto-flow min-content/ 600px;
+//     grid-template-areas: 
+//                         "carouselPart"
+//                         "regAndLogin"
+//                         "detailsInfo";
+//   }
+// }
+// @media screen and (max-width: 600px){
+//   .mainBody{
+//     //background-color: black;
+//     display: grid;
+//     grid: auto-flow min-content/ 500px;
+//     grid-template-areas: 
+//                         "carouselPart"
+//                         "regAndLogin"
+//                         "detailsInfo";
+//   }
+// }
+// @media screen and (min-width: 900px){
+//   .mainBody{
+//     //background-color: black;
+//     display: grid;
+//     grid: auto-flow min-content/ 700px;
+    
+//     grid-template-areas: 
+//                         "carouselPart"
+//                         "regAndLogin"
+//                         "detailsInfo";
+//   }
+// }
+// @media screen and (max-width: 900px){
+//   .mainBody{
+//     //background-color: black;
+//     display: grid;
+//     grid: auto-flow min-content/ 800px;
+    
+//     grid-template-areas: 
+//                         "carouselPart"
+//                         "regAndLogin"
+//                         "detailsInfo";
+//   }
+// }
+
+// }
+// @media screen and (max-width: 355px){
+//   .mainBody{
+//     grid: auto-flow min-content/ 1fr;
+//     grid-template-areas: "carouselPart"
+//     "regAndLogin"
+//     "detailsInfo";
+//   }
+//}

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+.header {
+  border: "1px solid black";
+  text-align: "center";
+}
+#main {
+  border: "1px solid black";
+  text-align: "center";
+}
+#footer {
+  border: "1px solid black";
+  text-align: "center";
+}

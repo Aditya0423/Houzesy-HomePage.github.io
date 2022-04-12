@@ -1,0 +1,22 @@
+.mainClass{
+  margin-top: 120px;
+  padding:100px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:70px;
+  background-color: #f3f3f3;
+}
+.heading{
+  color: rgb(96, 114, 100);
+  font-size: 1.4rem;
+  font: 'Ubuntu', sans-serif;
+}
+.option{
+  color: rgb(201, 121, 156);
+  font: 'Ubuntu', sans-serif;
+}
+
+@media screen and (max-width: 600px){
+
+}
