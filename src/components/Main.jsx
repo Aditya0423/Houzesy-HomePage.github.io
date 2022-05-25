@@ -18,3 +18,5 @@ export default function Main() {
     </div>
   );
 }
+
+// $ ssh-keygen -t rsa -b 4096 -C "aditya.rastogi2410@gmail.com"

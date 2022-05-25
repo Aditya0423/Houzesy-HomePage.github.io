@@ -1,0 +1,55 @@
+.addproject1{
+    display: flex;
+    align-items: left;
+    justify-content: right;
+    padding-bottom: 18px;
+    margin-right:  90px;
+}
+.form1{
+    width:                400px;
+    height:               555px;
+    /* padding:              5px; */
+    background-color:   rgb(245, 241, 241);
+    border-radius:        15px;
+    /* margin-left:          35px; */
+    margin-top:           18px;
+    box-shadow:           0 3px 5px rgb(32, 3, 3); 
+    
+  }
+
+  .top{
+      margin-bottom: 10px;
+      text-align: center;
+  }
+
+  .sub{
+      display: block;
+      margin: auto;
+      font-size: 19px;
+  }
+
+.bottom{
+    font-size: 20px;
+    display: block;
+    margin: 20px;
+}
+
+input {
+    border:                 1px solid #FAD9E6;
+    background-color:     #f3f3f3;
+    border: 1px solid rgb(228, 196, 215);
+    font-family:            'Montserrat', sans-serif;
+    width:                  60%;
+    justify-content: center;
+    text-align: center;
+    margin:            auto ;
+    margin-bottom:          20px;
+    padding:               10px;
+    border-radius:          5px;
+    display:                block;
+   /* // text-align:             center; */
+    font-size:              14px;
+    /* //color:                white; */
+    font-weight:            300;
+   
+  }

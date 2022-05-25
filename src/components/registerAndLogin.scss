@@ -1,8 +1,8 @@
 .main {
   position:             relative;
   //margin-top:           20px;
-  width:                360px;
-  height:               400px;
+  width:                460px;
+  height:               600px;
   background-color:   #332FD0;
   padding:              40px;
   box-sizing:           border-box;
@@ -11,15 +11,22 @@
 
 }
 .form{
-  width:                200px;
-  height:               270px;
+  width:                400px;
+  height:               390px;
   padding:              5px;
-  background-color:   white;
+  background-color:   rgb(255, 255, 255);
   border-radius:        10px;
   margin-left:          35px;
   margin-top:           20px;
   box-shadow:           0 3px 5px rgb(32, 3, 3); 
   
+}
+
+.addproject{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 18px;
 }
 
 // .topPart{ 
@@ -45,6 +52,7 @@
   border:                 none;
   font-size:              1.1em;
   font-family:            'Ubuntu', sans-serif;
+  margin-left: 15px;
   margin-top:             10px;
  
   &:hover{ 
@@ -69,11 +77,12 @@ input {
   border:                 1px solid #FAD9E6;
   background-color:     #f3f3f3;
   font-family:            'Montserrat', sans-serif;
-  width:                  150px;
-  
-  margin-bottom:          15px;
-  margin-left:            5px ;
-  padding:                10px;
+  width:                  60%;
+  justify-content: center;
+  text-align: center;
+  margin:            auto ;
+  margin-bottom:          20px;
+  padding:               10px;
   border-radius:          5px;
   display:                block;
  // text-align:             center;
@@ -93,8 +102,10 @@ input {
   color:                white;
   border-radius:          3px;
   width:                  100px;
-  margin-left:            4em;
-  margin-top:             0.4em;
+  margin:                      auto;
+  // margin-left:            4em;
+  margin-top:             35px;
+  display: block;
   font-family:            'Ubuntu', sans-serif;
   font-size:              18px;
   &:hover{

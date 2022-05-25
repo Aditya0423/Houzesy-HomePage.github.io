@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./registerAndLogin.scss";
+import "./registerAndLogin.css";
+
 export default function RegisterAndLogin() {
   const [isRegistered, setIsRegistered] = useState(false);
 
@@ -12,20 +14,20 @@ export default function RegisterAndLogin() {
     event.preventDefault();
   }
   return (
-    <div style={{ paddingLeft: "5%" }}>
+    <div  className="addproject" style={{ paddingLeft: "5%" }}>
       <div className="main">
         <img
           className="bgImg"
           src="https://livinator.com/wp-content/uploads/2015/07/myvibemylife.jpg"
           alt="img"
         />
-        <div className="form">
+        <div className="form ">
           <div className="topPart">
             <button className="btnSignUp" onClick={handleSignUp}>
-              SignUp
+              {/* SignOut */} Add a Project
             </button>
             <button className="btnSignIn" onClick={handleSignIn}>
-              SignIn
+              {/* SignIn */}
             </button>
           </div>
 
@@ -35,24 +37,24 @@ export default function RegisterAndLogin() {
                 type="text"
                 id=""
                 name="userName"
-                placeholder="username"
+                placeholder="Name"
               ></input>
               {!isRegistered && (
                 <input
                   type="email"
                   id=""
                   name="email"
-                  placeholder="email"
+                  placeholder="Email"
                 ></input>
               )}
               <input
                 type="password"
                 id=""
                 name="password"
-                placeholder="password"
+                placeholder="Password"
               ></input>
               <button className="btnRegister" type="submit">
-                {!isRegistered ? "Register" : "Login"}
+                {!isRegistered ? "Add" : "Login"}
               </button>
             </form>
           </div>

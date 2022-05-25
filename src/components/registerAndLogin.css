@@ -1,0 +1,12 @@
+.addproject{
+    display: flex;
+    align-items: left;
+    justify-content: right;
+    padding-bottom: 18px;
+    margin-right: 90px;
+}
+
+.btnSignUp{
+    justify-content: center;
+    text-align: center;
+}
